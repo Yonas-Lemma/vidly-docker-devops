@@ -49,6 +49,8 @@ The application is fully containerized using Docker and orchestrated with Docker
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
+<img width="3760" height="2210" alt="compose-run" src="https://github.com/user-attachments/assets/f4abaac0-019d-4e4c-b9aa-88b81a07d55b" />
+<img width="1850" height="1040" alt="app" src="https://github.com/user-attachments/assets/dca46a4d-1537-4efa-9f78-e83d38a16b13" />
 
 ---
 
@@ -59,3 +61,4 @@ The application is fully containerized using Docker and orchestrated with Docker
 ```bash
 git clone <repository-url>
 cd vidly-dockerized
+![Uploading image.png…]()

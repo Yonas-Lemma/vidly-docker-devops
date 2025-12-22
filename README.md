@@ -6,15 +6,42 @@ This project is a Dockerized version of the **Vidly** application, which include
 - **Backend**: A Node.js/Express API for managing movies.
 - **Database**: A MongoDB database for data storage.
 
-The application is containerized using Docker and orchestrated with Docker Compose.
+The application is fully containerized using Docker and orchestrated with Docker Compose.
 
 ---
 
 ## Project Structure
 
 - **frontend/**: React application.
+  - **Dockerfile**: Located at `frontend/Dockerfile`.
 - **backend/**: Node.js/Express API.
+  - **Dockerfile**: Located at `backend/Dockerfile`.
 - **docker-compose.yml**: Orchestrates the services.
+
+---
+
+## Docker Images
+
+### 1. **Frontend (React)**
+
+- **Dockerfile Location**: `frontend/Dockerfile`
+- **Base Image**: `node:14.16.0-alpine3.13`
+- **Exposed Port**: `3000`
+- **Purpose**: Builds and runs the React application in development mode.
+
+### 2. **Backend (Node.js/Express)**
+
+- **Dockerfile Location**: `backend/Dockerfile`
+- **Base Image**: `node:14.16.0-alpine3.13`
+- **Exposed Port**: `3001`
+- **Purpose**: Builds and runs the Node.js backend API.
+
+### 3. **Database (MongoDB)**
+
+- **Image**: `bitnami/mongodb:latest`
+- **Configuration**: Defined in `docker-compose.yml` under the `db` service.
+- **Exposed Port**: `27017`
+- **Purpose**: Provides a MongoDB database for the application.
 
 ---
 

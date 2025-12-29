@@ -59,6 +59,6 @@ The application is fully containerized using Docker and orchestrated with Docker
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Yonas-Lemma/vidly-docker-devops.git
 cd vidly-dockerized
 ![Uploading image.png…]()

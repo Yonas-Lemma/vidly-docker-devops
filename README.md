@@ -61,4 +61,4 @@ The application is fully containerized using Docker and orchestrated with Docker
 ```bash
 git clone https://github.com/Yonas-Lemma/vidly-docker-devops.git
 cd vidly-dockerized
-![Uploading image.png…]()
+
